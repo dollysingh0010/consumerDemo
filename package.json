@@ -1,0 +1,20 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/xb-msg-amqp-v100": "^0.9.40",
+    "@sap/xsenv": "^3.0.0",
+    "buffer": "^5.6.0",
+    "express": "^4.17.1",
+    "json-buffer": "^3.0.1",
+    "pm2": "^4.4.0"
+  }
+}
